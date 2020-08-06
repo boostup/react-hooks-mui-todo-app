@@ -6,7 +6,7 @@ import { List } from "@material-ui/core";
 import Todo from "./Todo";
 
 function TodoList() {
-  const { todos } = useContext(TodosContext);
+  const todos = useContext(TodosContext);
 
   if (todos.length)
     return (

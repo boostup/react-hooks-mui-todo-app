@@ -1,15 +1,15 @@
 import React, { useContext } from "react";
-import { TodosContext } from "../contexts/todos.context";
+import { DispatchContext } from "../contexts/todos.context";
 import useInputState from "../hooks/useInputState";
 import { TextField } from "@material-ui/core";
 
 function EditTodoForm({ id, task, toggleEditing }) {
-  const { editTodo } = useContext(TodosContext);
+  const dispatch = useContext(DispatchContext);
   const [value, setValue, reset] = useInputState(task);
 
   function handleEvents(e) {
     e.preventDefault();
-    editTodo(id, value);
+    dispatch({ type: "UPDATE", id, newTask: value });
     reset();
     toggleEditing();
   }
@@ -19,7 +19,7 @@ function EditTodoForm({ id, task, toggleEditing }) {
       <TextField
         value={value}
         onChange={setValue}
-        onBlur={handleEvents}
+        // onBlur={handleEvents}
         margin="normal"
         fullWidth
         autoFocus

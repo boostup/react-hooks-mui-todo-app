@@ -25,7 +25,7 @@ function TodoApp() {
         backgroundColor: "#fafafa",
       }}
     >
-      <AppBar color="primary" position="fixed" style={{ height: "64px" }}>
+      <AppBar color="primary" position="fixed">
         <Toolbar>
           <Typography className="title" color="inherit">
             React Todos With Hooks

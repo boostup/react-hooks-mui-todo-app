@@ -8,11 +8,11 @@ import {
 } from "@material-ui/core";
 import DeleteIcon from "@material-ui/icons/Delete";
 import EditIcon from "@material-ui/icons/Edit";
-import useToggle from "../hooks/useToggle";
+import useToggleState from "../hooks/useToggleState";
 import EditTodoForm from "./EditTodoForm";
 
 function Todo({ id, task, completed, removeTodo, toggleTodo, editTodo }) {
-  const [isEditing, toggleEditing] = useToggle(false);
+  const [isEditing, toggleEditing] = useToggleState(false);
 
   return (
     <ListItem style={{ height: "64px" }}>

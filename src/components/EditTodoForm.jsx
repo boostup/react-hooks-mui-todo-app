@@ -21,7 +21,7 @@ function EditTodoForm({ id, task, toggleEditing }) {
       <TextField
         value={value}
         onChange={setValue}
-        onBlur={handleEvents}
+        // onBlur={handleEvents}
         margin="normal"
         fullWidth
         autoFocus

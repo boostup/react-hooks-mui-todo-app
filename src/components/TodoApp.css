@@ -1,0 +1,10 @@
+.App {
+  padding: 0;
+  margin: 0;
+  height: 0;
+  background-color: #fafafa;
+}
+
+.App-Grid {
+  margin-top: -1rem;
+}

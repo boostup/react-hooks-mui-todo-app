@@ -1,5 +1,5 @@
 import React from "react";
-import { Paper, ListItemText, Divider } from "@material-ui/core";
+import { Paper, Divider } from "@material-ui/core";
 import { List } from "@material-ui/core";
 import Todo from "./Todo";
 

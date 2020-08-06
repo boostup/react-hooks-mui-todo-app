@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Intro
+
+1. check this branch [before-render-optimization](https://github.com/boostup/react-hooks-mui-todo-app/tree/before-render-optimization) : it is a functionning Todos App, but rendering isn't optimized. So this branch is just a snapshot for being able to quickly go back to that state of the app developpment, to ease comparing with the final code on the master branch.
+
+2. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

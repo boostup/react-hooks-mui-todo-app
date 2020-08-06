@@ -14,6 +14,8 @@ function EditTodoForm({ id, task, toggleEditing }) {
     toggleEditing();
   }
 
+  console.log("Rendering EditTodoForm");
+
   return (
     <form style={{ marginLeft: "1rem", width: "80%" }} onSubmit={handleEvents}>
       <TextField
@@ -23,9 +25,7 @@ function EditTodoForm({ id, task, toggleEditing }) {
         margin="normal"
         fullWidth
         autoFocus
-      >
-        adas
-      </TextField>
+      />
     </form>
   );
 }

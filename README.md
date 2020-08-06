@@ -1,6 +1,5 @@
-# Intro
-
-1. check this branch [before-render-optimization](https://github.com/boostup/react-hooks-mui-todo-app/tree/before-render-optimization) : it is a functionning Todos App, but rendering isn't optimized. So this branch is just a snapshot for being able to quickly go back to that state of the app developpment, to ease comparing with the final code on the master branch.
+## About the 'before-render-optimization' branch
+check this branch [before-render-optimization](https://github.com/boostup/react-hooks-mui-todo-app/tree/before-render-optimization) : it is a functionning Todos App, but rendering isn't optimized. So this branch is just a snapshot for being able to quickly go back to that state of the app developpment, to ease comparing with the final code on the master branch.
 
 Tutorial : [The Modern React Bootcamp (Hooks, Context, NextJS, Router) | Udemy](https://www.udemy.com/course/modern-react-bootcamp/learn/lecture/14541216) (Videos #280 and up)
 
@@ -12,7 +11,8 @@ Tutorial : [The Modern React Bootcamp (Hooks, Context, NextJS, Router) | Udemy](
 
    The branch master includes a version of the app where the optimizations have been implemented.
 
-2. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About this project
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
